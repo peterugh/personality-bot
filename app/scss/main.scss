@@ -1,0 +1,18 @@
+@import './reset';
+@import './fonts';
+@import './mixins';
+
+body {
+  box-sizing: border-box;
+  background: #0000a7;
+  font-family: 'courier', 'courier new', monospace;
+}
+a, a:link, a:visited {
+	color:#f60a00;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1, h2, h3, h4 {
+	font-weight:200;
+}

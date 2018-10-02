@@ -1,0 +1,34 @@
+$inputColor: #a8a8a8;
+
+.Home {
+  max-width: 600px;
+  width:90%;
+  margin:40px auto 0 auto;
+}
+.p {
+  color: $inputColor;
+  line-height: 150%;
+  letter-spacing: 0.07em;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.link {
+  // color:#8cc2ff;
+  
+  &:link {
+    // color:#8cc2ff;
+  }
+  &:visited {
+    // color:#8cc2ff;
+  }
+  &:hover {
+    color:#ffb43d;
+  }
+}
+.img {
+  max-width:600px;
+  width:90%;
+}
+.aaron {
+  font-size: 18px;
+}

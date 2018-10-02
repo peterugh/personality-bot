@@ -1,0 +1,30 @@
+// $inputColor: #a8a8a8;
+$inputColor: #fff;
+
+.CoolInput {
+  display: flex;
+  flex-wrap: wrap;
+  background: #0000a7;
+}
+.letter {
+  width: 20px;
+  border-bottom: 2px solid $inputColor;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-right: 5px;
+  color: $inputColor;
+  font-size: 24px;
+}
+.cursor {
+  @extend .letter;
+  border-bottom: 2px solid $inputColor;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { border-bottom-color: $inputColor; }
+  49% { border-bottom-color: $inputColor; }
+  50% { border-bottom-color: transparent; }
+  100% { border-bottom-color: transparent; }
+}

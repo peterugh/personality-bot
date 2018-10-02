@@ -1,0 +1,46 @@
+{
+  "name": "firstnode",
+  "version": "1.0.0",
+  "description": "Personality Quiz",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --open --content-base dev/",
+    "dev": "webpack-dev-server --inline --open --content-base dev/",
+    "dist": "webpack --config webpack.dist.config.js -p"
+  },
+  "author": "Pete Rugh",
+  "license": "ISC",
+  "dependencies": {
+    "es6-shim": "^0.35.1",
+    "express": "^4.15.2",
+    "promise-polyfill": "^6.0.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-transition-group": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.2",
+    "extract-text-webpack-plugin": "^2.0.0-beta.5",
+    "file-loader": "^0.11.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "replace-webpack-plugin": "^0.1.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0",
+    "webpack-dashboard": "^0.4.0",
+    "webpack-strip": "^0.1.0",
+    "webpack-dev-server": "^2.0.0-beta"
+  }
+}
